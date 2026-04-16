@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.000000123031" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -4035,7 +4035,9 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 <attribute name="SHORT_NAME" value="FTC252012SR47MBCA"/>
 </part>
 <part uuid="0xABCDEF50" name="IC9" library="InkTime_v5" deviceset="RT6160AWSC_RT6160AWSC" device=""/>
-<part name="FRAME1" library="Frames" library_urn="urn:adsk.eagle:library:42976481" deviceset="A3L-LOC" device=""/>
+<part name="FRAME1" library="Frames" library_urn="urn:adsk.eagle:library:42976481" deviceset="A3L-LOC" device="">
+<attribute name="N" value="1/2"/>
+</part>
 <part name="FRAME2" library="Frames" library_urn="urn:adsk.eagle:library:42976481" deviceset="A3L-LOC" device=""/>
 <part name="C39" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" deviceset="CAPACITOR" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="10uF"/>
 <part name="SUPPLY1" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="AGND-BAR" device="" value="GND"/>
@@ -4294,6 +4296,15 @@ Protection</text>
 <text x="233.68" y="-116.84" size="6.4516" layer="97">Buttons</text>
 <text x="228.6" y="-50.8" size="6.4516" layer="97">Haptic
 Driver</text>
+<text x="261.62" y="20.32" size="3.81" layer="94">MCU, POWER
+IMU, SWD</text>
+<text x="304.520996875" y="30.48" size="2.54" layer="94">drawn by: Pungaru Stelian</text>
+<text x="306.288015625" y="25.4" size="2.54" layer="94">InkTime v6</text>
+<text x="306.0090125" y="20.227028125" size="2.54" layer="94">10.04.2026</text>
+<text x="304.376690625" y="-251.52099375" size="2.54" layer="94">drawn by: Pungaru Stelian</text>
+<text x="306.233528125" y="-256.20018125" size="2.54" layer="94">InkTime v6</text>
+<text x="305.893021875" y="-261.36975625" size="2.54" layer="94">10.04.2026</text>
+<text x="317.67095" y="-266.738240625" size="2.54" layer="94">2/2</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="15.24" y="233.68" smashed="yes">
@@ -4309,15 +4320,9 @@ Driver</text>
 <attribute name="VALUE" x="6.35" y="154.94" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="-38.1" y="10.16" smashed="yes">
-<attribute name="DRAWING_NAME" x="306.07" y="25.4" size="2.54" layer="94"/>
-<attribute name="LAST_DATE_TIME" x="306.07" y="20.32" size="2.286" layer="94"/>
-<attribute name="SHEET" x="319.405" y="15.24" size="2.54" layer="94"/>
+<attribute name="N" x="320.04" y="15.24" size="2.54" layer="94"/>
 </instance>
-<instance part="FRAME2" gate="G$1" x="-38.1" y="-271.78" smashed="yes">
-<attribute name="DRAWING_NAME" x="306.07" y="-256.54" size="2.54" layer="94"/>
-<attribute name="LAST_DATE_TIME" x="306.07" y="-261.62" size="2.286" layer="94"/>
-<attribute name="SHEET" x="319.405" y="-266.7" size="2.54" layer="94"/>
-</instance>
+<instance part="FRAME2" gate="G$1" x="-38.1" y="-271.78" smashed="yes"/>
 <instance part="C39" gate="G$1" x="10.16" y="218.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="7.62" y="215.9" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="14.224" y="215.9" size="1.778" layer="96" rot="R90"/>
