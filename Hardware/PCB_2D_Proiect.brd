@@ -52,14 +52,14 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -2003,7 +2003,9 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="MANUFACTURER_NAME" value="TDK" x="43.032634375" y="1.054946875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="FTC252012SR47MBCA" x="43.032634375" y="1.054946875" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="43.032634375" y="1.054946875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="10.012634375" y="2.324946875" size="1.27" layer="25" align="center"/>
 <attribute name="SHORT_NAME" value="FTC252012SR47MBCA" x="10.012634375" y="4.864946875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="10.012634375" y="8.674946875" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C39" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="10uF" x="-7.69710625" y="10.9268625" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="-7.69710625" y="10.9268625" size="1.778" layer="27" display="off"/>
@@ -2052,6 +2054,7 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="CATEGORY" value="Capacitor" x="22.301278125" y="2.36933125" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="22.301278125" y="2.36933125" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="22.301278125" y="2.36933125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.761278125" y="3.63293125" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="22.301278125" y="2.36933125" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="22.301278125" y="2.36933125" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="22.301278125" y="2.36933125" size="1.778" layer="27" display="off"/>
@@ -2059,12 +2062,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="22.301278125" y="2.36933125" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="22.301278125" y="2.36933125" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="22.301278125" y="2.36933125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.761278125" y="1.10573125" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="22.301278125" y="2.36933125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C33" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="22uF" x="21.99229375" y="-10.830146875" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="24.53229375" y="-10.830146875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="24.53229375" y="-10.830146875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="24.53229375" y="-10.830146875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="21.99229375" y="-9.566546875" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="24.53229375" y="-10.830146875" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="24.53229375" y="-10.830146875" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="24.53229375" y="-10.830146875" size="1.778" layer="27" display="off"/>
@@ -2072,6 +2077,7 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="24.53229375" y="-10.830146875" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="24.53229375" y="-10.830146875" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="24.53229375" y="-10.830146875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="21.99229375" y="-12.093746875" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="24.53229375" y="-10.830146875" size="1.778" layer="27" display="off"/>
 </element>
 <element uuid="0xABCDEF39" name="TP_VREG" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="-8.338746875" y="-9.1108" smashed="yes">
@@ -2083,6 +2089,7 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="CATEGORY" value="Capacitor" x="21.40259375" y="11.5281625" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="21.40259375" y="11.5281625" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="21.40259375" y="11.5281625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="20.13259375" y="12.7917625" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="21.40259375" y="11.5281625" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="21.40259375" y="11.5281625" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="21.40259375" y="11.5281625" size="1.778" layer="27" display="off"/>
@@ -2090,9 +2097,11 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="21.40259375" y="11.5281625" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="21.40259375" y="11.5281625" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="21.40259375" y="11.5281625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="20.13259375" y="10.2645625" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="21.40259375" y="11.5281625" size="1.778" layer="27" display="off"/>
 </element>
 <element uuid="0xABCDEF29" name="TP_SCL" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="2.363021875" y="-0.743159375" smashed="yes">
+<attribute name="NAME" x="1.363021875" y="0.306840625" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="2.363021875" y="-0.743159375" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="2.363021875" y="-3.283159375" size="1" layer="37"/>
 <attribute name="VALUE" x="1.601021875" y="-1.759159375" size="0.0254" layer="27"/>
@@ -2117,6 +2126,7 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="CATEGORY" value="Capacitor" x="-10.6005625" y="12.42369375" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="-10.6005625" y="12.42369375" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-10.6005625" y="12.42369375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-11.8705625" y="13.68729375" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="-10.6005625" y="12.42369375" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="-10.6005625" y="12.42369375" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="-10.6005625" y="12.42369375" size="1.778" layer="27" display="off"/>
@@ -2124,6 +2134,7 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="-10.6005625" y="12.42369375" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="-10.6005625" y="12.42369375" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="-10.6005625" y="12.42369375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-11.8705625" y="11.16009375" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="-10.6005625" y="12.42369375" size="1.778" layer="27" display="off"/>
 </element>
 <element uuid="0xABCDEF05" name="J2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="TC2030-IDC_TC2030IDC" value="TC2030-IDC_TC2030-IDC" x="11.624628125" y="11.44325625" smashed="yes">
@@ -2136,6 +2147,7 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="MOUSER_PART_NUMBER" value="" x="11.624628125" y="11.44325625" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="11.624628125" y="11.44325625" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="12.574628125" y="11.44325625" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="12.574628125" y="11.44325625" size="1.27" layer="27" align="center"/>
 </element>
 <element uuid="0xABCDEF0B" name="U1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="NORDIC_NRF_4_AQFN50P700X700X85_HS-74N" value="NORDIC_NRF_4_NRF52840_QF" x="1.952153125" y="5.5507375" smashed="yes">
 <attribute name="NAME" x="-0.547846875" y="9.5507375" size="1" layer="25"/>
@@ -2157,6 +2169,7 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="CATEGORY" value="Capacitor" x="5.784621875" y="-14.10876875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="5.784621875" y="-14.10876875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="5.784621875" y="-14.10876875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="4.514621875" y="-12.84516875" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="5.784621875" y="-14.10876875" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="5.784621875" y="-14.10876875" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="5.784621875" y="-14.10876875" size="1.778" layer="27" display="off"/>
@@ -2164,12 +2177,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="5.784621875" y="-14.10876875" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="5.784621875" y="-14.10876875" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="5.784621875" y="-14.10876875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="4.514621875" y="-15.37236875" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="5.784621875" y="-14.10876875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C3" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="1pF" x="22.357021875" y="7.0332875" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="23.627021875" y="7.0332875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="23.627021875" y="7.0332875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="23.627021875" y="7.0332875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="22.357021875" y="8.2968875" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="23.627021875" y="7.0332875" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="23.627021875" y="7.0332875" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="23.627021875" y="7.0332875" size="1.778" layer="27" display="off"/>
@@ -2177,14 +2192,18 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="23.627021875" y="7.0332875" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="23.627021875" y="7.0332875" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="23.627021875" y="7.0332875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="22.357021875" y="5.7696875" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="23.627021875" y="7.0332875" size="1.778" layer="27" display="off"/>
 </element>
 <element uuid="0xABCDEF32" name="L1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="NORDIC_NRF_2_RESC0402_L" value="3.9nH" x="20.1398375" y="-8.320871875" smashed="yes">
+<attribute name="NAME" x="19.1398375" y="-7.320871875" size="1.27" layer="25"/>
+<attribute name="VALUE" x="19.1398375" y="-10.320871875" size="1.27" layer="27"/>
 </element>
 <element name="C4" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="1pF" x="22.459128125" y="9.76544375" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="23.729128125" y="9.76544375" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="23.729128125" y="9.76544375" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="23.729128125" y="9.76544375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="22.459128125" y="11.02904375" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="23.729128125" y="9.76544375" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="23.729128125" y="9.76544375" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="23.729128125" y="9.76544375" size="1.778" layer="27" display="off"/>
@@ -2192,12 +2211,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="23.729128125" y="9.76544375" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="23.729128125" y="9.76544375" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="23.729128125" y="9.76544375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="22.459128125" y="8.50184375" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="23.729128125" y="9.76544375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C22" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="1pF" x="20.296121875" y="9.50365" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="21.566121875" y="9.50365" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="21.566121875" y="9.50365" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="21.566121875" y="9.50365" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="20.296121875" y="10.76725" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="21.566121875" y="9.50365" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="21.566121875" y="9.50365" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="21.566121875" y="9.50365" size="1.778" layer="27" display="off"/>
@@ -2205,6 +2226,7 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="21.566121875" y="9.50365" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="21.566121875" y="9.50365" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="21.566121875" y="9.50365" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="20.296121875" y="8.24005" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="21.566121875" y="9.50365" size="1.778" layer="27" display="off"/>
 </element>
 <element uuid="0xABCDEF0E" name="ANT1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="2450AT18B100E_ANTC3216X140N" value="2450AT18B100E_2450AT18B100E" x="19.163484375" y="-15.3598625" smashed="yes">
@@ -2222,6 +2244,7 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="CATEGORY" value="Capacitor" x="17.47109375" y="0.986090625" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="17.47109375" y="0.986090625" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="17.47109375" y="0.986090625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="16.20109375" y="2.249690625" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="17.47109375" y="0.986090625" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="17.47109375" y="0.986090625" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="17.47109375" y="0.986090625" size="1.778" layer="27" display="off"/>
@@ -2229,12 +2252,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="17.47109375" y="0.986090625" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="17.47109375" y="0.986090625" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="17.47109375" y="0.986090625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="16.20109375" y="-0.277509375" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="17.47109375" y="0.986090625" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C1" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="12pF" x="16.14460625" y="-1.247559375" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="17.41460625" y="-1.247559375" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="17.41460625" y="-1.247559375" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="17.41460625" y="-1.247559375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="16.14460625" y="0.016040625" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="17.41460625" y="-1.247559375" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="17.41460625" y="-1.247559375" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="17.41460625" y="-1.247559375" size="1.778" layer="27" display="off"/>
@@ -2242,14 +2267,18 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="17.41460625" y="-1.247559375" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="17.41460625" y="-1.247559375" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="17.41460625" y="-1.247559375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="16.14460625" y="-2.511159375" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="17.41460625" y="-1.247559375" size="1.778" layer="27" display="off"/>
 </element>
 <element uuid="0xABCDEF0D" name="X1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="NORDIC_NRF_BT-XTAL_2016_N" value="32MHZ" x="9.9347625" y="1.3314" smashed="yes">
+<attribute name="NAME" x="7.1347625" y="2.8314" size="1.27" layer="25"/>
+<attribute name="VALUE" x="7.2347625" y="-1.5686" size="1.27" layer="27"/>
 </element>
 <element name="C11" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="100pF" x="22.353259375" y="1.863021875" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="23.623259375" y="1.863021875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="23.623259375" y="1.863021875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="23.623259375" y="1.863021875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="22.353259375" y="3.126621875" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="23.623259375" y="1.863021875" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="23.623259375" y="1.863021875" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="23.623259375" y="1.863021875" size="1.778" layer="27" display="off"/>
@@ -2257,12 +2286,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="23.623259375" y="1.863021875" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="23.623259375" y="1.863021875" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="23.623259375" y="1.863021875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="22.353259375" y="0.599421875" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="23.623259375" y="1.863021875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C10" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="100pF" x="22.41219375" y="-0.025084375" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="23.68219375" y="-0.025084375" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="23.68219375" y="-0.025084375" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="23.68219375" y="-0.025084375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="22.41219375" y="1.238515625" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="23.68219375" y="-0.025084375" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="23.68219375" y="-0.025084375" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="23.68219375" y="-0.025084375" size="1.778" layer="27" display="off"/>
@@ -2270,12 +2301,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="23.68219375" y="-0.025084375" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="23.68219375" y="-0.025084375" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="23.68219375" y="-0.025084375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="22.41219375" y="-1.288684375" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="23.68219375" y="-0.025084375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C7" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="100nF" x="22.20734375" y="-5.831278125" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="23.47734375" y="-5.831278125" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="23.47734375" y="-5.831278125" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="23.47734375" y="-5.831278125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="22.20734375" y="-4.567678125" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="23.47734375" y="-5.831278125" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="23.47734375" y="-5.831278125" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="23.47734375" y="-5.831278125" size="1.778" layer="27" display="off"/>
@@ -2283,12 +2316,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="23.47734375" y="-5.831278125" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="23.47734375" y="-5.831278125" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="23.47734375" y="-5.831278125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="22.20734375" y="-7.094878125" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="23.47734375" y="-5.831278125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C21" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="4.7µF" x="20.193859375" y="7.325371875" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="21.463859375" y="7.325371875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="21.463859375" y="7.325371875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="21.463859375" y="7.325371875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="20.193859375" y="8.588971875" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="21.463859375" y="7.325371875" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="21.463859375" y="7.325371875" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="21.463859375" y="7.325371875" size="1.778" layer="27" display="off"/>
@@ -2296,12 +2331,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="21.463859375" y="7.325371875" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="21.463859375" y="7.325371875" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="21.463859375" y="7.325371875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="20.193859375" y="6.061771875" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="21.463859375" y="7.325371875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C20" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="4.7µF" x="22.289640625" y="4.06426875" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="23.559640625" y="4.06426875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="23.559640625" y="4.06426875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="23.559640625" y="4.06426875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="22.289640625" y="5.32786875" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="23.559640625" y="4.06426875" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="23.559640625" y="4.06426875" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="23.559640625" y="4.06426875" size="1.778" layer="27" display="off"/>
@@ -2309,12 +2346,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="23.559640625" y="4.06426875" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="23.559640625" y="4.06426875" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="23.559640625" y="4.06426875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="22.289640625" y="2.80066875" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="23.559640625" y="4.06426875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C6" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="4.7µF" x="-15.6339375" y="-9.919746875" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="-14.3639375" y="-9.919746875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="-14.3639375" y="-9.919746875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-14.3639375" y="-9.919746875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-15.6339375" y="-8.656146875" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="-14.3639375" y="-9.919746875" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="-14.3639375" y="-9.919746875" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="-14.3639375" y="-9.919746875" size="1.778" layer="27" display="off"/>
@@ -2322,12 +2361,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="-14.3639375" y="-9.919746875" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="-14.3639375" y="-9.919746875" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="-14.3639375" y="-9.919746875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-15.6339375" y="-11.183346875" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="-14.3639375" y="-9.919746875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C5" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="100nF" x="19.91846875" y="4.7799875" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="21.18846875" y="4.7799875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="21.18846875" y="4.7799875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="21.18846875" y="4.7799875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.91846875" y="6.0435875" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="21.18846875" y="4.7799875" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="21.18846875" y="4.7799875" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="21.18846875" y="4.7799875" size="1.778" layer="27" display="off"/>
@@ -2335,12 +2376,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="21.18846875" y="4.7799875" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="21.18846875" y="4.7799875" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="21.18846875" y="4.7799875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.91846875" y="3.5163875" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="21.18846875" y="4.7799875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C14" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="4.7µF" x="-19.713559375" y="-14.499503125" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="-18.443559375" y="-14.499503125" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="-18.443559375" y="-14.499503125" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-18.443559375" y="-14.499503125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-19.713559375" y="-13.235903125" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="-18.443559375" y="-14.499503125" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="-18.443559375" y="-14.499503125" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="-18.443559375" y="-14.499503125" size="1.778" layer="27" display="off"/>
@@ -2348,12 +2391,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="-18.443559375" y="-14.499503125" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="-18.443559375" y="-14.499503125" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="-18.443559375" y="-14.499503125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-19.713559375" y="-15.763103125" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="-18.443559375" y="-14.499503125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C17" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="12pF" x="14.075734375" y="1.756990625" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="15.345734375" y="1.756990625" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="15.345734375" y="1.756990625" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="15.345734375" y="1.756990625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="14.075734375" y="3.020590625" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="15.345734375" y="1.756990625" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="15.345734375" y="1.756990625" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="15.345734375" y="1.756990625" size="1.778" layer="27" display="off"/>
@@ -2361,12 +2406,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="15.345734375" y="1.756990625" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="15.345734375" y="1.756990625" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="15.345734375" y="1.756990625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="14.075734375" y="0.493390625" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="15.345734375" y="1.756990625" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C18" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="12pF" x="13.594375" y="5.661125" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="14.864375" y="5.661125" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="14.864375" y="5.661125" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="14.864375" y="5.661125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="13.594375" y="6.924725" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="14.864375" y="5.661125" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="14.864375" y="5.661125" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="14.864375" y="5.661125" size="1.778" layer="27" display="off"/>
@@ -2374,6 +2421,7 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="14.864375" y="5.661125" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="14.864375" y="5.661125" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="14.864375" y="5.661125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="13.594375" y="4.397525" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="14.864375" y="5.661125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="X2" library="Frequency-Source" library_urn="urn:adsk.eagle:library:16378202" package="XTAL330X1051X90N" package3d_urn="urn:adsk.eagle:package:28351896/3" value="FC-135" x="5.019415625" y="-3.867484375" smashed="yes">
@@ -2385,6 +2433,7 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="LOAD_CAPACITANCE" value="12.5 pF" x="5.019415625" y="-3.867484375" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="EPSON" x="5.019415625" y="-3.867484375" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FC-135 32.7680KA-A5" x="5.019415625" y="-3.867484375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="5.019415625" y="-1.327484375" size="1.27" layer="25" align="center"/>
 <attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 85°C" x="5.019415625" y="-3.867484375" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE_SIZE" value="2-SMD No Lead" x="5.019415625" y="-3.867484375" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE_TYPE" value="Surface Mount" x="5.019415625" y="-3.867484375" size="1.778" layer="27" display="off"/>
@@ -2395,11 +2444,13 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="THERMALLOSS" value="" x="5.019415625" y="-3.867484375" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="±20 ppm" x="5.019415625" y="-3.867484375" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="Resonators" x="5.019415625" y="-3.867484375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="5.019415625" y="-6.407484375" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C12" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="100nF" x="10.1580625" y="-1.983653125" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="11.4280625" y="-1.983653125" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="11.4280625" y="-1.983653125" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="11.4280625" y="-1.983653125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="10.1580625" y="-0.720053125" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="11.4280625" y="-1.983653125" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="11.4280625" y="-1.983653125" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="11.4280625" y="-1.983653125" size="1.778" layer="27" display="off"/>
@@ -2407,12 +2458,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="11.4280625" y="-1.983653125" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="11.4280625" y="-1.983653125" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="11.4280625" y="-1.983653125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="10.1580625" y="-3.247253125" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="11.4280625" y="-1.983653125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C13" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="100nF" x="13.54356875" y="-1.388121875" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="14.81356875" y="-1.388121875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="14.81356875" y="-1.388121875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="14.81356875" y="-1.388121875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="13.54356875" y="-0.124521875" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="14.81356875" y="-1.388121875" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="14.81356875" y="-1.388121875" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="14.81356875" y="-1.388121875" size="1.778" layer="27" display="off"/>
@@ -2420,12 +2473,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="14.81356875" y="-1.388121875" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="14.81356875" y="-1.388121875" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="14.81356875" y="-1.388121875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="13.54356875" y="-2.651721875" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="14.81356875" y="-1.388121875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C15" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="1.0µF" x="13.66185625" y="-11.09918125" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="14.93185625" y="-11.09918125" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="14.93185625" y="-11.09918125" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="14.93185625" y="-11.09918125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="13.66185625" y="-9.83558125" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="14.93185625" y="-11.09918125" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="14.93185625" y="-11.09918125" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="14.93185625" y="-11.09918125" size="1.778" layer="27" display="off"/>
@@ -2433,12 +2488,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="14.93185625" y="-11.09918125" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="14.93185625" y="-11.09918125" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="14.93185625" y="-11.09918125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="13.66185625" y="-12.36278125" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="14.93185625" y="-11.09918125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C16" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="47nF" x="11.510415625" y="-12.445021875" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="12.780415625" y="-12.445021875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="12.780415625" y="-12.445021875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="12.780415625" y="-12.445021875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="11.510415625" y="-11.181421875" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="12.780415625" y="-12.445021875" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="12.780415625" y="-12.445021875" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="12.780415625" y="-12.445021875" size="1.778" layer="27" display="off"/>
@@ -2446,16 +2503,22 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="12.780415625" y="-12.445021875" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="12.780415625" y="-12.445021875" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="12.780415625" y="-12.445021875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="11.510415625" y="-13.708621875" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="12.780415625" y="-12.445021875" size="1.778" layer="27" display="off"/>
 </element>
 <element uuid="0xABCDEF31" name="L2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="NORDIC_NRF_2_RESC0402_L" value="10µH" x="-4.392465625" y="2.615784375" smashed="yes">
+<attribute name="NAME" x="-5.392465625" y="3.615784375" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-5.392465625" y="0.615784375" size="1.27" layer="27"/>
 </element>
 <element uuid="0xABCDEF33" name="L3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="NORDIC_NRF_2_RESC0402_L" value="15nH" x="-2.40834375" y="-7.6803125" smashed="yes">
+<attribute name="NAME" x="-3.40834375" y="-6.6803125" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-3.40834375" y="-9.6803125" size="1.27" layer="27"/>
 </element>
 <element name="C1-EP-DR" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="10uF" x="-4.996525" y="-9.854090625" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="-3.726525" y="-9.854090625" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="-3.726525" y="-9.854090625" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-3.726525" y="-9.854090625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-4.996525" y="-8.590490625" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="-3.726525" y="-9.854090625" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="-3.726525" y="-9.854090625" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="-3.726525" y="-9.854090625" size="1.778" layer="27" display="off"/>
@@ -2463,12 +2526,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="-3.726525" y="-9.854090625" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="-3.726525" y="-9.854090625" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="-3.726525" y="-9.854090625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-4.996525" y="-11.117690625" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="-3.726525" y="-9.854090625" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C2-EP-DR" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="4.7uF/25V" x="-4.5452875" y="-12.05555625" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="-5.8152875" y="-12.05555625" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="-5.8152875" y="-12.05555625" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-5.8152875" y="-12.05555625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-4.5452875" y="-10.79195625" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="-5.8152875" y="-12.05555625" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="-5.8152875" y="-12.05555625" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="-5.8152875" y="-12.05555625" size="1.778" layer="27" display="off"/>
@@ -2476,6 +2541,7 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="-5.8152875" y="-12.05555625" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="-5.8152875" y="-12.05555625" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="-5.8152875" y="-12.05555625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-4.5452875" y="-13.31915625" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="-5.8152875" y="-12.05555625" size="1.778" layer="27" display="off"/>
 </element>
 <element uuid="0xABCDEF57" name="D5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="ESP32_C6_LIBRARY_5_SOD3716X135N" value="ESP32_C6_LIBRARY_5_MBR0530" x="6.312390625" y="-7.74786875" smashed="yes">
@@ -2551,9 +2617,11 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="-7.335634375" y="9.70999375" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Murata" x="-7.335634375" y="9.70999375" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="-7.335634375" y="9.70999375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-7.885634375" y="10.12999375" size="0.5" layer="25"/>
 <attribute name="PACKAGE" value="0201 Murata" x="-7.335634375" y="9.70999375" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="-7.335634375" y="9.70999375" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="-7.335634375" y="9.70999375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-7.885634375" y="9.28999375" size="0.5" layer="27" align="top-left"/>
 </element>
 <element uuid="0xABCDEF41" name="C23" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="GRM011R60J152KE01L_2_GRM011R60J152KE01L" x="6.1152625" y="-10.507684375" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="6.1152625" y="-10.507684375" size="1.778" layer="27" display="off"/>
@@ -2562,9 +2630,11 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="6.1152625" y="-10.507684375" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Murata" x="6.1152625" y="-10.507684375" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="6.1152625" y="-10.507684375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="5.5652625" y="-10.087684375" size="0.5" layer="25"/>
 <attribute name="PACKAGE" value="0201 Murata" x="6.1152625" y="-10.507684375" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="6.1152625" y="-10.507684375" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="6.1152625" y="-10.507684375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="5.5652625" y="-10.927684375" size="0.5" layer="27" align="top-left"/>
 </element>
 <element name="R4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="CPF0201D7K68C1_0201" value="CPF0201D7K68C1_CPF0201D7K68C1" x="-17.435153125" y="-8.912884375" smashed="yes">
 <attribute name="VAL" value="0" x="-19.975153125" y="-6.372884375" size="1.778" layer="27" display="off"/>
@@ -2622,6 +2692,7 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="CATEGORY" value="Capacitor" x="-7.092925" y="-16.7481875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="-7.092925" y="-16.7481875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-7.092925" y="-16.7481875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-5.822925" y="-15.4845875" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="-7.092925" y="-16.7481875" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="-7.092925" y="-16.7481875" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="-7.092925" y="-16.7481875" size="1.778" layer="27" display="off"/>
@@ -2629,12 +2700,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="-7.092925" y="-16.7481875" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="-7.092925" y="-16.7481875" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="-7.092925" y="-16.7481875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-5.822925" y="-18.0117875" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="-7.092925" y="-16.7481875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="EPD_C1" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="1uF/50V" x="-3.246009375" y="-14.341578125" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="-3.246009375" y="-14.341578125" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="-3.246009375" y="-14.341578125" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-3.246009375" y="-14.341578125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-3.246009375" y="-13.077978125" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="-3.246009375" y="-14.341578125" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="-3.246009375" y="-14.341578125" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="-3.246009375" y="-14.341578125" size="1.778" layer="27" display="off"/>
@@ -2642,12 +2715,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="-3.246009375" y="-14.341578125" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="-3.246009375" y="-14.341578125" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="-3.246009375" y="-14.341578125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-3.246009375" y="-15.605178125" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="-3.246009375" y="-14.341578125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="EPD_C5" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="0.1uF/50V" x="-3.4967625" y="-16.631425" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="-3.4967625" y="-16.631425" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="-3.4967625" y="-16.631425" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-3.4967625" y="-16.631425" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-3.4967625" y="-15.367825" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="-3.4967625" y="-16.631425" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="-3.4967625" y="-16.631425" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="-3.4967625" y="-16.631425" size="1.778" layer="27" display="off"/>
@@ -2655,12 +2730,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="-3.4967625" y="-16.631425" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="-3.4967625" y="-16.631425" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="-3.4967625" y="-16.631425" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-3.4967625" y="-17.895025" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="-3.4967625" y="-16.631425" size="1.778" layer="27" display="off"/>
 </element>
 <element name="EPD_C6" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="1uF/50V" x="5.10184375" y="-16.679353125" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="5.10184375" y="-16.679353125" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="5.10184375" y="-16.679353125" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="5.10184375" y="-16.679353125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="5.10184375" y="-15.415753125" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="5.10184375" y="-16.679353125" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="5.10184375" y="-16.679353125" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="5.10184375" y="-16.679353125" size="1.778" layer="27" display="off"/>
@@ -2668,12 +2745,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="5.10184375" y="-16.679353125" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="5.10184375" y="-16.679353125" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="5.10184375" y="-16.679353125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="5.10184375" y="-17.942953125" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="5.10184375" y="-16.679353125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="EPD_C7" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="1uF/50V" x="7.423196875" y="-14.08880625" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="7.423196875" y="-14.08880625" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="7.423196875" y="-14.08880625" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="7.423196875" y="-14.08880625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="7.423196875" y="-12.82520625" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="7.423196875" y="-14.08880625" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="7.423196875" y="-14.08880625" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="7.423196875" y="-14.08880625" size="1.778" layer="27" display="off"/>
@@ -2681,12 +2760,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="7.423196875" y="-14.08880625" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="7.423196875" y="-14.08880625" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="7.423196875" y="-14.08880625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="7.423196875" y="-15.35240625" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="7.423196875" y="-14.08880625" size="1.778" layer="27" display="off"/>
 </element>
 <element name="EPD_C8" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="1uF/50V" x="7.363240625" y="-16.64360625" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="7.363240625" y="-16.64360625" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="7.363240625" y="-16.64360625" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="7.363240625" y="-16.64360625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="7.363240625" y="-15.38000625" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="7.363240625" y="-16.64360625" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="7.363240625" y="-16.64360625" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="7.363240625" y="-16.64360625" size="1.778" layer="27" display="off"/>
@@ -2694,12 +2775,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="7.363240625" y="-16.64360625" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="7.363240625" y="-16.64360625" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="7.363240625" y="-16.64360625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="7.363240625" y="-17.90720625" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="7.363240625" y="-16.64360625" size="1.778" layer="27" display="off"/>
 </element>
 <element name="EPD_C9" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="1uF/50V" x="22.456928125" y="-2.812571875" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="22.456928125" y="-2.812571875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="22.456928125" y="-2.812571875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="22.456928125" y="-2.812571875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="22.456928125" y="-1.548971875" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="22.456928125" y="-2.812571875" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="22.456928125" y="-2.812571875" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="22.456928125" y="-2.812571875" size="1.778" layer="27" display="off"/>
@@ -2707,12 +2790,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="22.456928125" y="-2.812571875" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="22.456928125" y="-2.812571875" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="22.456928125" y="-2.812571875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="22.456928125" y="-4.076171875" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="22.456928125" y="-2.812571875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="EPD_C10" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="1uF/50V" x="-5.73543125" y="14.913925" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="-5.73543125" y="14.913925" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="-5.73543125" y="14.913925" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-5.73543125" y="14.913925" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-5.73543125" y="16.177525" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="-5.73543125" y="14.913925" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="-5.73543125" y="14.913925" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="-5.73543125" y="14.913925" size="1.778" layer="27" display="off"/>
@@ -2720,12 +2805,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="-5.73543125" y="14.913925" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="-5.73543125" y="14.913925" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="-5.73543125" y="14.913925" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-5.73543125" y="13.650325" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="-5.73543125" y="14.913925" size="1.778" layer="27" display="off"/>
 </element>
 <element name="EPD_C11" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="1uF/50V" x="-5.8445875" y="12.746671875" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="-5.8445875" y="12.746671875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="-5.8445875" y="12.746671875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-5.8445875" y="12.746671875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-5.8445875" y="14.010271875" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="-5.8445875" y="12.746671875" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="-5.8445875" y="12.746671875" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="-5.8445875" y="12.746671875" size="1.778" layer="27" display="off"/>
@@ -2733,12 +2820,14 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="-5.8445875" y="12.746671875" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="-5.8445875" y="12.746671875" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="-5.8445875" y="12.746671875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-5.8445875" y="11.483071875" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="-5.8445875" y="12.746671875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="EPD_C12" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="1uF/50V" x="-8.89655625" y="13.382559375" smashed="yes">
 <attribute name="CATEGORY" value="Capacitor" x="-8.89655625" y="13.382559375" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="-8.89655625" y="13.382559375" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-8.89655625" y="13.382559375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-8.89655625" y="14.646159375" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OPERATING_TEMP" value="" x="-8.89655625" y="13.382559375" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="-8.89655625" y="13.382559375" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="-8.89655625" y="13.382559375" size="1.778" layer="27" display="off"/>
@@ -2746,6 +2835,7 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="SUB-CATEGORY" value="" x="-8.89655625" y="13.382559375" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="-8.89655625" y="13.382559375" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="" x="-8.89655625" y="13.382559375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-8.89655625" y="12.118959375" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="-8.89655625" y="13.382559375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C43" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="4.7uF" x="3.965603125" y="-11.8600375" smashed="yes">
@@ -2768,9 +2858,11 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="7.235828125" y="-11.8313625" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Murata" x="7.235828125" y="-11.8313625" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="7.235828125" y="-11.8313625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.685828125" y="-11.4113625" size="0.5" layer="25"/>
 <attribute name="PACKAGE" value="0201 Murata" x="7.235828125" y="-11.8313625" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="7.235828125" y="-11.8313625" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="7.235828125" y="-11.8313625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="6.685828125" y="-12.2513625" size="0.5" layer="27" align="top-left"/>
 </element>
 <element uuid="0xABCDEF51" name="D3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="ESP32_C6_LIBRARY_3_SOT95P280X145-6N" value="ESP32_C6_LIBRARY_3_USBLC6-2SC6Y" x="-4.6621375" y="6.6894625" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="-4.6621375" y="6.6894625" size="1.778" layer="27" display="off"/>
@@ -2819,7 +2911,9 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="HEIGHT" value="0.625mm" x="-9.17571875" y="3.68283125" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-9.17571875" y="3.68283125" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="DRV2605YZFR" x="-9.17571875" y="3.68283125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-9.17571875" y="6.22283125" size="1.27" layer="25" align="center"/>
 <attribute name="SHORT_NAME" value="DRV2605YZFR" x="-9.17571875" y="3.68283125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-9.17571875" y="6.22283125" size="1.27" layer="27" align="center"/>
 </element>
 <element uuid="0xABCDEF1D" name="C34" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="GRM011R60J152KE01L_2_GRM011R60J152KE01L" x="-19.80255" y="11.504625" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="-19.80255" y="11.504625" size="1.778" layer="27" display="off"/>
@@ -2828,9 +2922,11 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="-19.80255" y="11.504625" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Murata" x="-19.80255" y="11.504625" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="-19.80255" y="11.504625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-20.35255" y="11.924625" size="0.5" layer="25"/>
 <attribute name="PACKAGE" value="0201 Murata" x="-19.80255" y="11.504625" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="-19.80255" y="11.504625" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="-19.80255" y="11.504625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-20.35255" y="11.084625" size="0.5" layer="27" align="top-left"/>
 </element>
 <element uuid="0xABCDEF1F" name="C32" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="GRM011R60J152KE01L_2_GRM011R60J152KE01L" x="-19.5223875" y="12.745221875" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="-19.5223875" y="12.745221875" size="1.778" layer="27" display="off"/>
@@ -2839,9 +2935,11 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="-19.5223875" y="12.745221875" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Murata" x="-19.5223875" y="12.745221875" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="-19.5223875" y="12.745221875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-20.0723875" y="13.165221875" size="0.5" layer="25"/>
 <attribute name="PACKAGE" value="0201 Murata" x="-19.5223875" y="12.745221875" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="-19.5223875" y="12.745221875" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="-19.5223875" y="12.745221875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-20.0723875" y="12.325221875" size="0.5" layer="27" align="top-left"/>
 </element>
 <element uuid="0xABCDEF27" name="TP_BAT_GND" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="HECTOR_WATCH_1_TP20R" value="HECTOR_WATCH_1_TPTP20R" x="0.075375" y="-10.394228125" smashed="yes">
 <attribute name="POPULARITY" value="2" x="0.075375" y="-10.394228125" size="1.778" layer="27" display="off"/>
@@ -2857,6 +2955,7 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="PACKAGE" value="TDFN-8 Maxim" x="-16.121196875" y="9.03584375" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="-16.121196875" y="9.03584375" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=329239&amp;manufacturer=Analog Devices&amp;part_name=MAX17048G+T10&amp;search_term=None" x="-16.121196875" y="9.03584375" size="1.778" layer="27" display="off"/>
+<attribute name="SHORTNAME" value="U3" x="-16.121196875" y="9.03584375" size="1.778" layer="27"/>
 <attribute name="SHORT_NAME" value="MAX17048G+T10" x="-16.121196875" y="9.03584375" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX17048G+T10/Analog+Devices/view-part/?ref=snap" x="-16.121196875" y="9.03584375" size="1.778" layer="27" display="off"/>
 </element>
@@ -2867,9 +2966,11 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="1.980965625" y="-12.52485" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Murata" x="1.980965625" y="-12.52485" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="1.980965625" y="-12.52485" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="1.430965625" y="-12.10485" size="0.5" layer="25"/>
 <attribute name="PACKAGE" value="0201 Murata" x="1.980965625" y="-12.52485" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="1.980965625" y="-12.52485" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="1.980965625" y="-12.52485" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="1.430965625" y="-12.94485" size="0.5" layer="27" align="top-left"/>
 </element>
 <element uuid="0xABCDEF43" name="C30" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="GRM011R60J152KE01L_2_GRM011R60J152KE01L" x="3.11823125" y="-10.194696875" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="3.11823125" y="-10.194696875" size="1.778" layer="27" display="off"/>
@@ -2878,9 +2979,11 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="3.11823125" y="-10.194696875" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Murata" x="3.11823125" y="-10.194696875" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="3.11823125" y="-10.194696875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="2.56823125" y="-9.774696875" size="0.5" layer="25"/>
 <attribute name="PACKAGE" value="0201 Murata" x="3.11823125" y="-10.194696875" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="3.11823125" y="-10.194696875" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="3.11823125" y="-10.194696875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="2.56823125" y="-10.614696875" size="0.5" layer="27" align="top-left"/>
 </element>
 <element uuid="0xABCDEF11" name="SW_UP" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="2025-10-22_07-23-44_LIBRARY_SW_EVP-AKE31A_PAN" value="2025-10-22_07-23-44_LIBRARY_EVP-AKE31ASW_EVP-AKE31A_PAN" x="11.819796875" y="-15.423340625" smashed="yes" rot="R180">
 <attribute name="COPYRIGHT" value="Copyright (C) 2025 Ultra Librarian. All rights reserved." x="11.819796875" y="-15.423340625" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2889,6 +2992,8 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="DIGI-KEY_PART_NUMBER_3" value="P123437DKR-ND" x="11.819796875" y="-15.423340625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="11.819796875" y="-15.423340625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="EVP-AKE31A" x="11.819796875" y="-15.423340625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="15.090996875" y="-12.546840625" size="1.27" layer="27" ratio="6" rot="R180"/>
+<attribute name="VALUE" x="14.818596875" y="-17.626840625" size="1.27" layer="27" ratio="6" rot="R180"/>
 </element>
 <element name="R5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="CPF0201D7K68C1_0201" value="CPF0201D7K68C1_CPF0201D7K68C1" x="-2.388996875" y="-12.535228125" smashed="yes">
 <attribute name="VAL" value="10K" x="-4.928996875" y="-9.995228125" size="1.778" layer="27" display="off"/>
@@ -2900,6 +3005,8 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="DIGI-KEY_PART_NUMBER_3" value="P123437DKR-ND" x="0.816590625" y="-15.425815625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="0.816590625" y="-15.425815625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="EVP-AKE31A" x="0.816590625" y="-15.425815625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="4.087790625" y="-12.549315625" size="1.27" layer="27" ratio="6" rot="R180"/>
+<attribute name="VALUE" x="3.815390625" y="-17.629315625" size="1.27" layer="27" ratio="6" rot="R180"/>
 </element>
 <element uuid="0xABCDEF49" name="C31" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="GRM011R60J152KE01L_2_CAPC0201X13N" value="GRM011R60J152KE01L_2_GRM011R60J152KE01L" x="19.116046875" y="0.280734375" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="19.116046875" y="0.280734375" size="1.778" layer="27" display="off"/>
@@ -2908,9 +3015,11 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="19.116046875" y="0.280734375" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Murata" x="19.116046875" y="0.280734375" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="19.116046875" y="0.280734375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="18.566046875" y="0.700734375" size="0.5" layer="25"/>
 <attribute name="PACKAGE" value="0201 Murata" x="19.116046875" y="0.280734375" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="19.116046875" y="0.280734375" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="19.116046875" y="0.280734375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="18.566046875" y="-0.139265625" size="0.5" layer="27" align="top-left"/>
 </element>
 <element name="R8" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="CPF0201D7K68C1_0201" value="CPF0201D7K68C1_CPF0201D7K68C1" x="-2.286965625" y="-10.051784375" smashed="yes">
 <attribute name="VAL" value="10K" x="-4.826965625" y="-7.511784375" size="1.778" layer="27" display="off"/>
@@ -2922,9 +3031,11 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="13.99186875" y="-12.9225875" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Murata" x="13.99186875" y="-12.9225875" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="13.99186875" y="-12.9225875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="13.44186875" y="-12.5025875" size="0.5" layer="25"/>
 <attribute name="PACKAGE" value="0201 Murata" x="13.99186875" y="-12.9225875" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="13.99186875" y="-12.9225875" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="13.99186875" y="-12.9225875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="13.44186875" y="-13.3425875" size="0.5" layer="27" align="top-left"/>
 </element>
 <element uuid="0xABCDEF13" name="SW_DN" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="2025-10-22_07-23-44_LIBRARY_SW_EVP-AKE31A_PAN" value="2025-10-22_07-23-44_LIBRARY_EVP-AKE31ASW_EVP-AKE31A_PAN" x="-10.174521875" y="-15.42726875" smashed="yes" rot="R180">
 <attribute name="COPYRIGHT" value="Copyright (C) 2025 Ultra Librarian. All rights reserved." x="-10.174521875" y="-15.42726875" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2933,6 +3044,8 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <attribute name="DIGI-KEY_PART_NUMBER_3" value="P123437DKR-ND" x="-10.174521875" y="-15.42726875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="-10.174521875" y="-15.42726875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="EVP-AKE31A" x="-10.174521875" y="-15.42726875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-6.903321875" y="-12.55076875" size="1.27" layer="27" ratio="6" rot="R180"/>
+<attribute name="VALUE" x="-7.175721875" y="-17.63076875" size="1.27" layer="27" ratio="6" rot="R180"/>
 </element>
 <element name="R7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.leXqR7P-SQO3BGZIgMO2vg" package="CPF0201D7K68C1_0201" value="CPF0201D7K68C1_CPF0201D7K68C1" x="-0.291996875" y="-12.74990625" smashed="yes">
 <attribute name="VAL" value="10K" x="-2.831996875" y="-10.20990625" size="1.778" layer="27" display="off"/>
@@ -3227,30 +3340,29 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <wire x1="-14.19496875" y1="-7.3398375" x2="-15.0951375" y2="-8.24000625" width="0.3" layer="1"/>
 <wire x1="-15.0951375" y1="-9.90185625" x2="-15.1493375" y2="-9.919746875" width="0.3" layer="1"/>
 <wire x1="-14.19496875" y1="-7.3398375" x2="-14.183340625" y2="-7.303096875" width="0.3" layer="1"/>
-<wire x1="-20.3576625" y1="-9.48639375" x2="-19.45749375" y2="-9.48639375" width="0.3" layer="1"/>
-<wire x1="-19.45749375" y1="-9.48639375" x2="-19.39968125" y2="-9.540340625" width="0.3" layer="1"/>
-<wire x1="-20.3576625" y1="-9.48639375" x2="-20.372371875" y2="-9.5286" width="0.3" layer="1"/>
+<wire x1="-20.05514375" y1="-9.211371875" x2="-19.75224375" y2="-9.211371875" width="0.3" layer="1"/>
+<wire x1="-19.75224375" y1="-9.211371875" x2="-19.39968125" y2="-9.540340625" width="0.3" layer="1"/>
+<wire x1="-20.05514375" y1="-9.211371875" x2="-20.372371875" y2="-9.5286" width="0.3" layer="1"/>
 <wire x1="-19.59598125" y1="-14.125725" x2="-19.2497625" y2="-14.47194375" width="0.3" layer="1"/>
 <wire x1="-19.59598125" y1="-14.05648125" x2="-19.59598125" y2="-14.125725" width="0.3" layer="1"/>
 <wire x1="-19.87295625" y1="-13.77950625" x2="-19.59598125" y2="-14.05648125" width="0.3" layer="1"/>
 <wire x1="-20.98085625" y1="-13.77950625" x2="-19.87295625" y2="-13.77950625" width="0.3" layer="1"/>
 <wire x1="-21.11934375" y1="-13.64101875" x2="-20.98085625" y2="-13.77950625" width="0.3" layer="1"/>
-<wire x1="-21.11934375" y1="-10.1095875" x2="-21.11934375" y2="-13.64101875" width="0.3" layer="1"/>
-<wire x1="-20.49615" y1="-9.48639375" x2="-21.11934375" y2="-10.1095875" width="0.3" layer="1"/>
+<wire x1="-21.11934375" y1="-9.861265625" x2="-21.11934375" y2="-13.64101875" width="0.3" layer="1"/>
+<wire x1="-20.681328125" y1="-9.42325" x2="-21.11934375" y2="-9.861265625" width="0.3" layer="1"/>
 <wire x1="-19.2497625" y1="-14.47194375" x2="-19.228959375" y2="-14.499503125" width="0.3" layer="1"/>
-<wire x1="-20.49615" y1="-9.48639375" x2="-20.372371875" y2="-9.5286" width="0.3" layer="1"/>
+<wire x1="-20.681328125" y1="-9.42325" x2="-20.372371875" y2="-9.5286" width="0.3" layer="1"/>
 <wire x1="-16.6185" y1="-9.07093125" x2="-15.0951375" y2="-9.07093125" width="0.3" layer="1"/>
 <wire x1="-17.17245" y1="-9.62488125" x2="-16.6185" y2="-9.07093125" width="0.3" layer="1"/>
 <wire x1="-19.31900625" y1="-9.62488125" x2="-17.17245" y2="-9.62488125" width="0.3" layer="1"/>
 <wire x1="-19.31900625" y1="-9.62488125" x2="-19.39968125" y2="-9.540340625" width="0.3" layer="1"/>
-<wire x1="-8.24000625" y1="-3.87765" x2="-8.24000625" y2="-4.22386875" width="0.3" layer="1"/>
+<wire x1="-8.24000625" y1="-3.87765" x2="-8.24000625" y2="-4.085725" width="0.3" layer="1"/>
+<wire x1="-8.24000625" y1="-4.085725" x2="-8.24000625" y2="-4.22386875" width="0.3" layer="1"/>
 <wire x1="-8.24000625" y1="-4.22386875" x2="-8.196684375" y2="-4.24205" width="0.3" layer="1"/>
 <wire x1="-8.24000625" y1="-3.87765" x2="-8.196684375" y2="-3.84205" width="0.3" layer="1"/>
-<wire x1="-10.31731875" y1="-3.80840625" x2="-8.37849375" y2="-3.80840625" width="0.3" layer="1"/>
-<wire x1="-11.079" y1="-3.046725" x2="-10.31731875" y2="-3.80840625" width="0.3" layer="1"/>
-<wire x1="-11.4944625" y1="-3.046725" x2="-11.079" y2="-3.046725" width="0.3" layer="1"/>
-<wire x1="-8.37849375" y1="-3.80840625" x2="-8.24000625" y2="-3.87765" width="0.3" layer="1"/>
-<wire x1="-11.4944625" y1="-3.046725" x2="-11.533340625" y2="-3.013096875" width="0.3" layer="1"/>
+<wire x1="-10.31731875" y1="-3.80840625" x2="-8.79464375" y2="-3.80840625" width="0.3" layer="1"/>
+<wire x1="-10.31731875" y1="-3.80840625" x2="-11.112628125" y2="-3.013096875" width="0.3" layer="1"/>
+<wire x1="-8.79464375" y1="-3.80840625" x2="-8.24000625" y2="-4.085725" width="0.3" layer="1"/>
 <wire x1="-11.97916875" y1="1.45411875" x2="-11.56370625" y2="1.45411875" width="0.3" layer="1"/>
 <wire x1="-12.1869" y1="1.2463875" x2="-11.97916875" y2="1.45411875" width="0.3" layer="1"/>
 <wire x1="-12.1869" y1="-2.76975" x2="-12.1869" y2="1.2463875" width="0.3" layer="1"/>
@@ -3403,7 +3515,6 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <wire x1="-8.37849375" y1="13.36404375" x2="-8.967065625" y2="12.775471875" width="0.3" layer="1"/>
 <wire x1="-8.967065625" y1="12.775471875" x2="-9.2786625" y2="12.463875" width="0.3" layer="1"/>
 <wire x1="-11.355975" y1="12.463875" x2="-11.3859625" y2="12.42369375" width="0.3" layer="1"/>
-<wire x1="-8.37849375" y1="13.36404375" x2="-8.41195625" y2="13.382559375" width="0.3" layer="1"/>
 <wire x1="-7.54756875" y1="9.694125" x2="-8.24000625" y2="9.0016875" width="0.1524" layer="1"/>
 <wire x1="-7.54756875" y1="9.694125" x2="-7.520634375" y2="9.70999375" width="0.3" layer="1"/>
 <wire x1="-7.27059375" y1="10.248075" x2="-7.27059375" y2="10.87126875" width="0.15" layer="1"/>
@@ -3643,6 +3754,8 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <vertex x="9.344871875" y="-16.438340625"/>
 <vertex x="9.356471875" y="-16.410334375"/>
 </polygon>
+<wire x1="-11.112628125" y1="-3.013096875" x2="-11.533340625" y2="-3.013096875" width="0.3" layer="1"/>
+<wire x1="-8.37849375" y1="13.36404375" x2="-8.41195625" y2="13.382559375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PMIC_INT">
 <contactref element="IC1" pad="A1"/>
@@ -5072,7 +5185,6 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <contactref element="J1" pad="23"/>
 <contactref element="EPD_C11" pad="1"/>
 <wire x1="-6.924375" y1="12.81009375" x2="-6.370425" y2="12.81009375" width="0.14998125" layer="1"/>
-<wire x1="-8.032275" y1="13.91799375" x2="-6.924375" y2="12.81009375" width="0.14998125" layer="1"/>
 <wire x1="-10.31731875" y1="13.91799375" x2="-8.032275" y2="13.91799375" width="0.14998125" layer="1"/>
 <wire x1="-10.802025" y1="13.4332875" x2="-10.31731875" y2="13.91799375" width="0.14998125" layer="1"/>
 <wire x1="-12.6023625" y1="13.4332875" x2="-10.802025" y2="13.4332875" width="0.14998125" layer="1"/>
@@ -5091,6 +5203,7 @@ SMD XTAL 2.0 x 1.6 mm</description>
 </via>
 <via x="-12.463875" y="-5.4010125" extent="1-16" drill="0.15">
 </via>
+<wire x1="-8.032275" y1="13.91799375" x2="-6.924375" y2="12.81009375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$76">
 <contactref element="J1" pad="24"/>
